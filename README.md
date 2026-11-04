@@ -2,7 +2,6 @@
 
 Feather Player is a Windows desktop app for browsing and watching your personal video clips. It uses the mpv player for playback and runs quietly in the system tray when you close the window.
 
-Feather Player was previously called FeatherLauncher.
 
 <img width="1161" height="701" alt="Feather Player main window" src="https://github.com/user-attachments/assets/11eb2f13-4c64-48c4-8468-8ebcf6d2908a" />
 
