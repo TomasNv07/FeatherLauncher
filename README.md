@@ -1,8 +1,10 @@
-# FeatherLauncher
+# Feather Player
 
-FeatherLauncher is a Windows desktop app for browsing and watching your personal video clips. It uses the mpv player for playback and runs quietly in the system tray when you close the window.
+Feather Player is a Windows desktop app for browsing and watching your personal video clips. It uses the mpv player for playback and runs quietly in the system tray when you close the window.
 
-<img width="1161" height="701" alt="FeatherLauncher main window" src="https://github.com/user-attachments/assets/11eb2f13-4c64-48c4-8468-8ebcf6d2908a" />
+Feather Player was previously called FeatherLauncher.
+
+<img width="1161" height="701" alt="Feather Player main window" src="https://github.com/user-attachments/assets/11eb2f13-4c64-48c4-8468-8ebcf6d2908a" />
 
 
 ## Features
@@ -15,9 +17,9 @@ FeatherLauncher is a Windows desktop app for browsing and watching your personal
 ## Download and install
 
 1. Go to the [Releases](../../releases) page.
-2. Download the latest `FeatherLauncher_Setup_1.0.0.exe` file from the Assets section.
+2. Download the latest `FeatherPlayer_Setup_1.0.0.exe` file from the Assets section.
 3. Run the installer and follow the steps.
-4. Start FeatherLauncher from the Start menu.
+4. Start Feather Player from the Start menu.
 
 By default the app installs for your user account only, so it does not need administrator rights. During setup you can choose to create a desktop shortcut.
 
@@ -34,11 +36,11 @@ If you prefer, you can check the file with your antivirus before running it.
 
 ## Updating
 
-Download the newer installer from the Releases page and run it. It installs over the old version and closes the running copy if needed.
+Download the newer installer from the Releases page and run it. It installs over the old version and closes the running copy if needed. If you are coming from FeatherLauncher, install over it the same way. Your settings and clip data are carried over.
 
 ## Uninstalling
 
-Open Windows Settings, go to Apps, find FeatherLauncher, and choose Uninstall.
+Open Windows Settings, go to Apps, find Feather Player, and choose Uninstall.
 
 ## Feedback and bugs
 
