@@ -35,7 +35,7 @@ If you prefer, you can check the file with your antivirus before running it.
 
 ## Updating
 
-Download the newer installer from the Releases page and run it. It installs over the old version and closes the running copy if needed. If you are coming from FeatherLauncher, install over it the same way. Your settings and clip data are carried over.
+Download the newer installer from the Releases page and run it. It installs over the old version and closes the running copy if needed.
 
 ## Uninstalling
 
