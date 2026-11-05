@@ -1,6 +1,6 @@
 # Feather Player
 
-Feather Player is a Windows desktop app for browsing and watching your personal video clips. It uses the mpv player for playback and runs quietly in the system tray when you close the window.
+Feather Player is a Windows desktop app for browsing and watching your personal video clips. It uses the mpv player for playback and FFmpeg for thumbnails and clip tools, and runs quietly in the system tray when you close the window.
 
 
 <img width="1161" height="701" alt="Feather Player main window" src="https://github.com/user-attachments/assets/11eb2f13-4c64-48c4-8468-8ebcf6d2908a" />
@@ -9,6 +9,7 @@ Feather Player is a Windows desktop app for browsing and watching your personal 
 ## Features
 
 - Plays your video clips using mpv
+- Creates thumbnails and reads clip information using FFmpeg
 - Runs in the system tray, so it stays out of your way
 - Optional start with Windows
 - Only one copy of the app runs at a time
@@ -16,7 +17,7 @@ Feather Player is a Windows desktop app for browsing and watching your personal 
 ## Download and install
 
 1. Go to the [Releases](../../releases) page.
-2. Download the latest `FeatherPlayer_Setup_1.0.0.exe` file from the Assets section.
+2. Download the latest `FeatherPlayer_Setup_x.x.x.exe` file from the Assets section.
 3. Run the installer and follow the steps.
 4. Start Feather Player from the Start menu.
 
@@ -25,7 +26,7 @@ By default the app installs for your user account only, so it does not need admi
 ## Requirements
 
 - Windows 10 or Windows 11, 64-bit
-- No other software needs to be installed. The mpv player is included.
+- No other software needs to be installed. The mpv player and FFmpeg are included.
 
 ## Windows SmartScreen warning
 
@@ -47,7 +48,10 @@ Found a problem or have an idea? Open an issue on the [Issues](../../issues) tab
 
 ## Credits
 
-- [mpv](https://mpv.io) is used for video playback and is included with the installer. mpv is a separate project with its own license. See the mpv website for details.
+Feather Player includes the following third-party software. Each is a separate project with its own license, and those licenses apply to those components.
+
+- [mpv](https://mpv.io) is used for video playback and is included with the installer.
+- [FFmpeg](https://ffmpeg.org) (`ffmpeg.exe` and `ffprobe.exe`) is used for thumbnails and video processing and is included with the installer. The included build is from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) and is licensed under the GNU GPL v3. FFmpeg's source code is available at <https://ffmpeg.org/download.html>. FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
 
 ## License
 
